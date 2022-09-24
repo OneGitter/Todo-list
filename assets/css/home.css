@@ -1,0 +1,7 @@
+body{
+    text-align: center;
+}
+
+input[type=checkbox]:checked + label{
+    text-decoration: line-through;
+}

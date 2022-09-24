@@ -1,0 +1,25 @@
+<ul>
+                   
+    <% for (let i of todo_list) { %>
+        <hr>
+        <div class="task"> 
+            <li>
+                <div>
+                    <span>
+                        <input type="checkbox" name="box" id="i._id">
+                        <label for="i._id">
+                            <%= i.task %>
+                        </label>
+                    </span>
+                    <% if (i.category != "None") { %>
+                     
+                        <span class="i.category">
+                            <%= i.category %>
+                        </span>
+                    <% } %>
+                </div>
+                <p><%= i.due_date %> </p>
+            </li>
+        </div>
+    <% } %>
+</ul>
