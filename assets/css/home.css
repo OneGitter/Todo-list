@@ -1,7 +1,83 @@
 body{
     text-align: center;
+   
 }
 
 input[type=checkbox]:checked + label{
     text-decoration: line-through;
+} 
+
+.Description input[type=textarea]{
+   outline: transparent;
+   border:none;
+
+}
+
+
+.Category_main{
+    display:flex;
+    
+
+}
+.category{
+    border-right: 1px solid grey;
+    width:50%;
+}
+.duedate{
+    width: 50%;
+    
+}
+.delete  a{
+    text-decoration: none;
+    color:black;
+}
+li{
+    
+    list-style-type: none;
+    background-color: rgb(227, 224, 224);
+    
+}    
+.part1{
+    display: flex;
+    justify-content: space-between;
+    font-size: large;
+    font-weight: 500;
+}
+.Work{
+    background-color: aquamarine;
+    margin-right: 30px;
+    margin-top: 10px;
+    height:30px;
+    padding-top: 5px;
+    width:50px;
+    font-weight: 525;
+    border: 2px solid grey;
+    border-radius: 10%;
+}
+.Personal{
+    background-color:burlywood;
+    margin-right: 30px;
+    margin-top: 10px;
+    height:30px;
+    padding-top: 5px;
+    width:70px;
+    font-weight: 525;
+    border: 2px solid grey;
+    border-radius: 10%;
+    
+}
+.Other{
+    background-color:rgb(196, 124, 227);
+    margin-right: 30px;
+    margin-top: 10px;
+    height:30px;
+    padding-top: 5px;
+    width:50px;
+    font-weight: 525;
+    border: 2px solid grey;
+    border-radius: 10%;
+}
+.date{
+    font-weight: 500;
+    font-size: large;
 }
