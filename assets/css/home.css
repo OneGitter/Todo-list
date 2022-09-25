@@ -47,35 +47,37 @@ li{
     background-color: aquamarine;
     margin-right: 30px;
     margin-top: 10px;
-    height:30px;
+    height:26px;
     padding-top: 5px;
     width:50px;
     font-weight: 525;
     border: 2px solid grey;
     border-radius: 10%;
+    text-align: center;
 }
 .Personal{
     background-color:burlywood;
     margin-right: 30px;
     margin-top: 10px;
-    height:30px;
+    height:26px;
     padding-top: 5px;
     width:70px;
     font-weight: 525;
     border: 2px solid grey;
     border-radius: 10%;
-    
+    text-align: center;
 }
 .Other{
     background-color:rgb(196, 124, 227);
     margin-right: 30px;
     margin-top: 10px;
-    height:30px;
+    height:26px;
     padding-top: 5px;
     width:50px;
     font-weight: 525;
     border: 2px solid grey;
     border-radius: 10%;
+    text-align: center;
 }
 .date{
     font-weight: 500;
