@@ -1,11 +1,11 @@
 <form action="/create-task" method="POST">
-    <div>
+    <div class="Description">
         <label for="task">DESCRIPTION</label><br>
-        <input type="text" name="task"  id="task" placeholder="What do you need to do?" required>
+        <input type="textarea" name="task"  id="task" placeholder="What do you need to do?" required>
     </div>
     <hr>
-    <div>
-        <div>
+    <div class="Category_main">
+        <div class="category">
             <label for="category">CATEGORY</label><br>
             <select id="category" name="category">
               <option value="None" selected hidden>Choose a Category</option>
@@ -14,14 +14,14 @@
               <option value="Other">Other</option>
             </select>
         </div>
-        <div>
+        <div class="duedate">
             <label for="due_date" required>DUE DATE</label><br>
             <input type="date" id="due_date" name="due_date">
         </div>
     </div>
     <hr>
     <button type="submit">Add Task</button>
-    <button type="button">
+    <button type="button" class="delete">
         <a href="/delete-all">
 
             Delete Tasks

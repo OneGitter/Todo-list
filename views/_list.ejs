@@ -4,8 +4,8 @@
         <hr>
         <div class="task"> 
             <li>
-                <div>
-                    <span>
+                <div class="part1">
+                    <span class="task">
                         <input type="checkbox" name="box" id="i._id">
                         <label for="i._id">
                             <%= i.task %>
@@ -13,12 +13,12 @@
                     </span>
                     <% if (i.category != "None") { %>
                      
-                        <span class="i.category">
+                        <span class="<%=i.category%>">
                             <%= i.category %>
                         </span>
                     <% } %>
                 </div>
-                <p><%= i.due_date %> </p>
+                <div class="date"><%= i.due_date %> </div>
             </li>
         </div>
     <% } %>
